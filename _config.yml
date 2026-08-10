@@ -1,0 +1,36 @@
+# ══════════════════════════════════════════════════════
+#  사이트 기본 설정 — 여기만 고치면 상단 이름/메뉴가 바뀝니다
+# ══════════════════════════════════════════════════════
+
+title: Chailin Nam                        # 좌측 상단에 크게 뜨는 이름
+author: Chailin Nam
+description: "Chailin Nam — M.S. student at the NLP Lab, School of Software, Soongsil University."
+url: "https://namchailin.github.io"
+baseurl: ""
+
+# 우측 상단 메뉴 — 항목을 늘리거나 지우면 됩니다
+nav:
+  - name: "CV"
+    link: "./chailin_CV.pdf"
+  - name: "NLP LAB"
+    link: "https://sites.google.com/view/ssu-nlp/home"
+
+# 상단 이름 왼쪽에 소속 로고를 넣고 싶으면 주석을 푸세요
+# ins_logo: "./logo.png"
+
+# 하단 저작권 문구 표시 여부
+footer: no
+footer_url: "https://github.com/ankitsultana/researcher"
+footer_text: "Page design by Ankit Sultana"
+
+# Google Analytics 를 쓸 때만 주석을 푸세요
+# tracking_id: UA-XXXXXXXX-1
+
+markdown: kramdown
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+exclude:
+  - README.md
